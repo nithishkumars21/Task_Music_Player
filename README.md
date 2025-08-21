@@ -1,5 +1,7 @@
 # CodeAlpha_Music_Player
 https://github.com/nithishkumars21/CodeAlpha_Music_Player.git
+
+
 🎵 Music Player using JavaScript
 📌 Project Overview
 This project is a sleek and functional music player built with HTML, CSS, and JavaScript. It allows users to play audio tracks, navigate through a playlist, and control playback with an intuitive interface. Bonus features include autoplay and playlist management for a richer user experience.
