@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="music-player">
+        <div class="player-header">
+            <h1>My Music Player</h1>
+        </div>
+        
+        <div class="album-art">
+            <div class="album-image" id="albumImage">
+                <div class="default-album">♪</div>
+            </div>
+        </div>
+        
+        <div class="song-info">
+            <h2 id="songTitle">No Song Selected</h2>
+            <p id="artistName">Unknown Artist</p>
+        </div>
+        
+        <div class="progress-container">
+            <span id="currentTime">0:00</span>
+            <div class="progress-bar">
+                <div class="progress" id="progress"></div>
+                <div class="progress-handle" id="progressHandle"></div>
+            </div>
+            <span id="duration">0:00</span>
+        </div>
+        
+        <div class="controls">
+            <button id="prevBtn" class="control-btn">
+                <span>⏮</span>
+            </button>
+            <button id="playPauseBtn" class="control-btn play-btn">
+                <span id="playPauseIcon">▶</span>
+            </button>
+            <button id="nextBtn" class="control-btn">
+                <span>⏭</span>
+            </button>
+        </div>
+        
+        <div class="volume-container">
+            <span class="volume-icon">🔊</span>
+            <div class="volume-bar">
+                <div class="volume-progress" id="volumeProgress"></div>
+                <div class="volume-handle" id="volumeHandle"></div>
+            </div>
+            <span id="volumeValue">100</span>
+        </div>
+        
+        <div class="additional-controls">
+            <button id="autoplayBtn" class="feature-btn">
+                <span>🔁</span>
+                <span>Autoplay</span>
+            </button>
+            <button id="shuffleBtn" class="feature-btn">
+                <span>🔀</span>
+                <span>Shuffle</span>
+            </button>
+        </div>
+        
+        <div class="playlist-section">
+            <h3>Playlist</h3>
+            <div class="playlist" id="playlist">
+                <!-- Playlist items will be added dynamically -->
+            </div>
+            <div class="file-input-container">
+                <input type="file" id="audioFileInput" accept="audio/*" multiple>
+                <label for="audioFileInput" class="file-input-label">Add Songs</label>
+            </div>
+        </div>
+    </div>
+    
+    <audio id="audioPlayer" preload="metadata"></audio>
+    
+    <script src="script.js"></script>
+</body>
+</html>
