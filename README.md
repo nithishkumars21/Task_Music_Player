@@ -1,5 +1,5 @@
 # Music_Player
-https://github.com/nithishkumars21/CodeAlpha_Music_Player.git
+https://github.com/nithishkumars21/Task_Music_Player.git
 
 
 🎵 Music Player using JavaScript
