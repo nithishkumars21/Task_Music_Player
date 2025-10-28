@@ -1,4 +1,4 @@
-# CodeAlpha_Music_Player
+# Music_Player
 https://github.com/nithishkumars21/CodeAlpha_Music_Player.git
 
 
